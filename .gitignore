@@ -1,0 +1,7 @@
+# build outputs (rebuild with the commands in README)
+*.exe
+# third-party installers - download from the official sources in README
+setup/downloads/
+# voice recordings
+samples/
+*.wav

@@ -1,0 +1,2 @@
+# Managed by MicFX tray app. Original saved as config.txt.before-micfx
+Include: C:\ProgramData\MicFX\active.txt
