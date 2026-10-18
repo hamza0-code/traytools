@@ -41,6 +41,16 @@ set CSC=C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe
 - **VxeBattery: in use.** Runs from this folder at startup. Digits use a 3×5 pixel-block font scaled by whole pixels (`Glyphs` in `MouseBattery.cs`).
 - **MicFX: shelved.** Equalizer APO, ReaPlugs and RNNoise were uninstalled. To use it again, run `setup\RUN-SETUP.cmd` and then `MicFX.exe`.
 
+## Author
+
+**[hamza0-code](https://github.com/hamza0-code)**, sole developer
+
+- **Software Developer:** C# / .NET Framework Windows tray apps, Win32 interop, build without an SDK
+- **Hardware Integration Engineer:** USB HID protocol implementation and probing for VXE mouse receivers
+- **Audio DSP Engineer:** Equalizer APO / VST2 voice chain design, calibration and A/B evaluation
+
+VXE battery protocol adapted from [Fan4Metal/ATK_tray](https://github.com/Fan4Metal/ATK_tray).
+
 ## Lessons
 - The Leviosa's audio function threw Code 10 on a front USB port. It worked on a rear port.
 - Robotic sound came from low signal-to-noise (about 10 dB) at the mic, not from the chain. Get closer to the mic before tuning software.
